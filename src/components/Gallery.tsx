@@ -4,7 +4,7 @@ import { useState } from "react";
 export const PHOTOS = [
   { src: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=600", caption: "Nosso primeiro encontro" },
   { src: "https://images.unsplash.com/photo-1529635141051-1ef9342fec5a?w=600", caption: "Risadas sem fim" },
-  { src: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=600", caption: "Aquele pôr do sol" },
+  { src: "D:\Documents\facul\Outros\Projetos pessoais\milene-renan-s-love-story\src\assets/por do sol.jpg", caption: "Aquele pôr do sol" },
   { src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600", caption: "Café da manhã juntos" },
   { src: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600", caption: "Passeio especial" },
   { src: "https://images.unsplash.com/photo-1521543387191-274e95667f5d?w=600", caption: "Abraço apertado" },

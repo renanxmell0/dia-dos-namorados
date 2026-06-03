@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroBg from "@/assets/hero-bg.jpg";
+import IMG_4883 from "@/assets/IMG_4883.jpg";
 import { FloatingHearts } from "@/components/FloatingHearts";
 import { Countdown } from "@/components/Countdown";
 import { Gallery } from "@/components/Gallery";
@@ -44,16 +44,14 @@ function Index() {
         }`}
       >
         <div className="absolute inset-0">
-          <img src={heroBg} alt="" className="h-full w-full object-cover opacity-40" />
-          <div className="absolute inset-0 bg-gradient-romance opacity-80" />
+          <img src={IMG_4883} alt="" className="h-full w-full object-cover opacity-40" />
+          <div className="absolute inset-0 bg-gradient-romance opacity-50" />
         </div>
         <div className="relative z-10 max-w-2xl text-center">
-          <p className="font-script mb-4 text-2xl text-shimmer animate-fade-up">
-            Para Milene
-          </p>
+          
           <h1 className="font-display text-5xl font-medium leading-tight text-foreground md:text-7xl animate-fade-up" style={{ animationDelay: "0.2s", opacity: 0 }}>
             Feliz Dia dos <em className="text-shimmer">Namorados</em>,<br />
-            Milene <span className="inline-block animate-heart-beat">❤️</span>
+            Meu amor <span className="inline-block animate-heart-beat">❤️</span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground animate-fade-up md:text-xl" style={{ animationDelay: "0.5s", opacity: 0 }}>
             Uma pequena surpresa feita especialmente para você.
