@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 
 // Replace with your own song URL (mp3)
-const SONG_URL = "https://cdn.pixabay.com/audio/2022/10/30/audio_347111d57a.mp3";
+const SONG_URL = "https://youtu.be/arA0f6ZJDgo?si=zdF2OCKO7tS7ygqp";
 
 export function MusicPlayer() {
   const ref = useRef<HTMLAudioElement>(null);

@@ -1,17 +1,27 @@
 import { useState } from "react";
+import porDoSol from "@/assets/porDoSol.jpg";
+import primeiroEncontro from "@/assets/primeiroEncontro.jpg";
+import passeioEspecial from "@/assets/passeioEspecial.jpg";
+import paraSempre from "@/assets/paraSempre.jpg";
+import aniversario from "@/assets/aniversarios.jpg";
+import shopping from "@/assets/shopping.jpg";
+import anvdeyasmin from "@/assets/anvdeyasmin.jpg";
+import segundoencontro from "@/assets/segundoencontro.jpg";
+import rua from "@/assets/rua.jpg";
+import flor from "@/assets/flor.jpg";
 
 // To replace photos: change the `src` URLs below. Use imports from src/assets/ for local files.
 export const PHOTOS = [
-  { src: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=600", caption: "Nosso primeiro encontro" },
-  { src: "https://images.unsplash.com/photo-1529635141051-1ef9342fec5a?w=600", caption: "Risadas sem fim" },
-  { src: "D:\Documents\facul\Outros\Projetos pessoais\milene-renan-s-love-story\src\assets/por do sol.jpg", caption: "Aquele pôr do sol" },
-  { src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600", caption: "Café da manhã juntos" },
-  { src: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600", caption: "Passeio especial" },
-  { src: "https://images.unsplash.com/photo-1521543387191-274e95667f5d?w=600", caption: "Abraço apertado" },
-  { src: "https://images.unsplash.com/photo-1518562180175-34a163b1a9a6?w=600", caption: "Nossa música" },
-  { src: "https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=600", caption: "Aniversário" },
-  { src: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600", caption: "Dias bons" },
-  { src: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=600", caption: "Para sempre" },
+  { src: primeiroEncontro, caption: "❤️" },
+  { src: aniversario, caption: "❤️" },
+  { src: porDoSol, caption: "❤️" },
+  { src: shopping, caption: "❤️" },
+  { src: passeioEspecial, caption: "❤️" },
+  { src: anvdeyasmin, caption: "❤️" },
+  { src: segundoencontro, caption: "❤️" },
+  { src: rua, caption: "❤️" },
+  { src: flor, caption: "❤️" },
+  { src: paraSempre, caption: "❤️" },
 ];
 
 export function Gallery() {

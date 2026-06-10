@@ -5,7 +5,6 @@ import { FloatingHearts } from "@/components/FloatingHearts";
 import { Countdown } from "@/components/Countdown";
 import { Gallery } from "@/components/Gallery";
 import { Reasons } from "@/components/Reasons";
-import { SurpriseButton } from "@/components/SurpriseButton";
 import { MusicPlayer } from "@/components/MusicPlayer";
 import { useReveal } from "@/hooks/use-reveal";
 
@@ -139,29 +138,18 @@ function Index() {
               <div className="font-display space-y-5 text-lg leading-[2rem] text-foreground md:text-xl">
                 <p className="font-script text-3xl">Milene,</p>
                 <p>
-                  Desde que você entrou na minha vida, meus dias ficaram mais leves, felizes e especiais. Cada momento ao seu lado se transformou em uma lembrança que guardo com carinho.
+                  Desde que você entrou na minha vida tudo mudou para melhor. Eu passei a ir nas missas, vi o quão importante é estar seguindo o caminho de Cristo, passei a gostar de filme romantico🙄(mas só vejo com voce tb kkkk, sozinho não dá), amadureci bastante em alguns pensamentos e no meu agir, enfim, sou muito grato a Deus por ter colocado você na minha vida.
                 </p>
                 <p>
-                  Obrigado por todos os sorrisos, conversas, abraços e momentos que compartilhamos. Você faz parte dos meus melhores dias.
+                  Obrigado por todos os sorrisos, conversas, abraços e momentos que compartilhamos. Você é a melhor coisa que já me aconteceu e eu sou muito feliz por ter você ao meu lado. Espero que possamos continuar construindo nossa história juntos, cheia de amor e companheirismo. E, a cada dia que passa, eu tenho mais certeza que quero viver o resto da minha vida com você.
                 </p>
-                <p className="font-script text-3xl text-shimmer">Eu te amo. ❤️</p>
+                <p className="font-script text-3xl text-shimmer">Eu te amo muitão, meu amor. ❤️</p>
                 <p className="text-right">
                   Com carinho,<br />
                   <span className="font-script text-3xl">Renan</span>
                 </p>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Section 6: Surprise */}
-        <section className="px-6 py-20">
-          <div className="mx-auto max-w-2xl text-center reveal">
-            <p className="font-script text-3xl text-shimmer">Psssiu...</p>
-            <h2 className="font-display mt-2 mb-10 text-4xl font-medium md:text-5xl">
-              Uma surpresa secreta
-            </h2>
-            <SurpriseButton />
           </div>
         </section>
 

@@ -1,14 +1,14 @@
 const REASONS = [
-  "Seu sorriso",
-  "Seu jeito carinhoso",
-  "Como você me apoia",
+  "Seu beijo😉",
+  "Seu jeito carinhoso em nao ser carinhosa kkk",
+  "Como você me apoia mesmo nao concordando muito comigo",
   "Como você me faz rir",
   "Sua companhia",
-  "Seu abraço",
-  "Sua inteligência",
-  "Sua beleza",
+  "Seu abraço beem apertado",
+  "Seu sorriso",
+  "Seus olhos😍😍",
   "Seu coração",
-  "Você ser você",
+  "Seu cabelo",
 ];
 
 export function Reasons() {
