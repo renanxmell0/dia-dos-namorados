@@ -9,14 +9,6 @@ import { MusicPlayer } from "@/components/MusicPlayer";
 import { useReveal } from "@/hooks/use-reveal";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Para Milene, com amor ❤️" },
-      { name: "description", content: "Uma surpresa de Dia dos Namorados feita por Renan para Milene." },
-      { property: "og:title", content: "Para Milene ❤️" },
-      { property: "og:description", content: "Uma pequena surpresa feita especialmente para você." },
-    ],
-  }),
   component: Index,
 });
 
