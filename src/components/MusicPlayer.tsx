@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const SONG_URL = encodeURI(
-  "https://strict-gold-wxs0guae.edgeone.app/Zezé Di Camargo & Luciano - É o Amor (Áudio Oficial).mp3"
+  "https://coming-coffee-kbh9ej19.edgeone.app/Zezé%20Di%20Camargo%20&%20Luciano%20-%20É%20o%20Amor%20(Áudio%20Oficial).mp3"
 );
 
 export function MusicPlayer() {
